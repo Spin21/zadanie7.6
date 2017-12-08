@@ -1,0 +1,40 @@
+.container {
+  font-family: Source Sans Pro;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 17vw;
+  width: 17vw;
+  flex-flow: wrap;
+  flex: 100%; }
+
+.container .title {
+  display: flex;
+  max-width: 17vw;
+  width: 17vw; }
+.container h1 {
+  justify-content: left;
+  max-width: 17vw;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #2980b9;
+  font-weight: bold;
+  text-align: left; }
+.container p {
+  line-height: 25px;
+  font-size: 15px; }
+
+.first-chapter, .second-chapter, .third-chapter {
+  display: flex;
+  max-width: 17vw;
+  width: 16vw;
+  flex: 100%;
+  flex-flow: wrap;
+  text-align: left; }
+
+/*# sourceMappingURL=style.css.map */
